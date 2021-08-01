@@ -16,6 +16,7 @@
 		2D5B660326B68102006773D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5B660126B68102006773D6 /* LaunchScreen.storyboard */; };
 		2D5B660E26B68103006773D6 /* SwiftUI_UserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B660D26B68103006773D6 /* SwiftUI_UserDefaultsTests.swift */; };
 		2D5B661926B68103006773D6 /* SwiftUI_UserDefaultsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B661826B68103006773D6 /* SwiftUI_UserDefaultsUITests.swift */; };
+		2D5B662B26B6824E006773D6 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B662A26B6824E006773D6 /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2D5B661426B68103006773D6 /* SwiftUI-UserDefaultsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-UserDefaultsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5B661826B68103006773D6 /* SwiftUI_UserDefaultsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UserDefaultsUITests.swift; sourceTree = "<group>"; };
 		2D5B661A26B68103006773D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5B662A26B6824E006773D6 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		2D5B65F226B68100006773D6 /* SwiftUI-UserDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				2D5B662926B68236006773D6 /* ViewModel */,
 				2D5B65F326B68100006773D6 /* AppDelegate.swift */,
 				2D5B65F526B68100006773D6 /* SceneDelegate.swift */,
 				2D5B65F726B68100006773D6 /* ContentView.swift */,
@@ -137,6 +140,14 @@
 				2D5B661A26B68103006773D6 /* Info.plist */,
 			);
 			path = "SwiftUI-UserDefaultsUITests";
+			sourceTree = "<group>";
+		};
+		2D5B662926B68236006773D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D5B662A26B6824E006773D6 /* SettingsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5B662B26B6824E006773D6 /* SettingsViewModel.swift in Sources */,
 				2D5B65F426B68100006773D6 /* AppDelegate.swift in Sources */,
 				2D5B65F626B68100006773D6 /* SceneDelegate.swift in Sources */,
 				2D5B65FB26B68100006773D6 /* SwiftUI_UserDefaults.xcdatamodeld in Sources */,
